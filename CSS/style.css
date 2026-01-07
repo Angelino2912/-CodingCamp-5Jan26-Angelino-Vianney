@@ -1,0 +1,33 @@
+.todo-table{
+    border-collapse: collapse;
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);   
+    border-collapse: collapse;
+    margin: 100px auto;
+}
+.todo-table h1 {
+  text-align: center !important;
+  vertical-align: middle;
+  border: none;
+  color: rgb(0, 0, 0);
+}
+.todo-table td{
+    text-align: center;
+    border: none;
+    padding:10px;
+    background-color: #e0e0e0;
+}
+.todo-table button{
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.header-row td {
+    border: none;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    color: #333;
+}
+.todo-table {
+    background-color: #ffffff;
+}
