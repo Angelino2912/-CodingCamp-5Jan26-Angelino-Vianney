@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Tugas</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <table class="todo-table" border="1" cellpadding="15" cellspacing="0">
@@ -16,18 +16,18 @@
         <tr>
             <td colspan="4">
                 <div style="display:flex; justify-content:center; gap:5px;">
-                    <input type="text" placeholder="Masukan todo list">
-                    <input type="text" placeholder="mm/dd/yyyy">
-                    <button>+</button>
+                    <input type="text" id="todo-input" placeholder="Masukan todo list">
+                    <input type="text" id="todo-date" placeholder="mm/dd/yyyy">
+                    <button id="add-btn">+</button>
                 </div>
             </td>  
         </tr>
         <tr>
             <td colspan="1" style="text-align:left;">
-                <button>Filter</button>
+                <button id="filter-btn">Filter</button>
             </td>
             <td colspan="3" style="text-align:right;">
-                <button>Delete All</button>
+                <button id="delete-all-btn">Delete All</button>
             </td>
         </tr>
         <tr class="header-row">
@@ -36,11 +36,15 @@
             <td>Status</td>
             <td>Action</td>
         </tr>
-        <tr>
-            <td colspan="4" style="text-align:center;">
-                <p>Belum ada Input la dulu</p>
-            </td>
-        </tr>
+          <tbody id="todo-list">
+    <tr>
+      <td colspan="4" style="text-align:center;">
+        <p>Belum ada Input la dulu</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
     </table>
+    <script src="JS/script.js"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@
     text-align: center;
     border: none;
     padding:10px;
-    background-color: #e0e0e0;
+    background-color: #eaff00;
 }
 .todo-table button{
     padding: 10px 20px;
@@ -29,5 +29,5 @@
     color: #333;
 }
 .todo-table {
-    background-color: #ffffff;
+    background-color: #ff0000;
 }
